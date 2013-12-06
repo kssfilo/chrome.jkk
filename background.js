@@ -1,5 +1,3 @@
-console.log('background script has been started')
-
 var config={
 	isEnabled:(localStorage.hasOwnProperty('isEnabled')?localStorage.isEnabled==='true':true),
 	wage:(localStorage.hasOwnProperty('wage')?parseInt(localStorage.wage):700)

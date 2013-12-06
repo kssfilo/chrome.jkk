@@ -1,5 +1,3 @@
-console.log("popup.js has been started")
-
 document.addEventListener('DOMContentLoaded',function(){
 	chrome.runtime.getBackgroundPage(function(bp){
 		document.getElementById('wage').value=bp.config.wage

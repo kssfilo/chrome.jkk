@@ -1,5 +1,3 @@
-console.log("contentscript.js has been started")
-
 chrome.runtime.sendMessage('getConfig',function(r){
 	if(r.isEnabled){
 		var f=function(x){

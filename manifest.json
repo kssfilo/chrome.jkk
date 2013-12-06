@@ -1,20 +1,20 @@
 {
   "manifest_version": 2,
-  "name": "Simple",
-  "version": "0.0",
-  "description": "Simple Extension",
+  "name": "時給換算君",
+  "version": "1.1",
+  "description": "Webページ上の「xxx円」の表示をあなたの労働時間に変換します」",
   "background": {
   	"scripts": ["background.js"],
 	"persistent": false
   },
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "disabled.png",
 	"default_popup": "popup.html",
-	"default_title": "Simple Extension"
+	"default_title": "時給換算君"
   },
   "content_scripts": [
   	{
-		"matches": ["*://*/*"],
+		"matches": ["http://*/*","https://*/*"],
 		"js": ["contentscript.js"],
 		"run_at": "document_end"
 	}

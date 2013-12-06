@@ -2,8 +2,19 @@
 <html>
   <head>
     <script src="popup.js"></script>
+	<style>
+		body{width:160px;height:160px;}
+		h1{font-size:16px;color:#aaa;}
+		p{font-size:10px;color:#aaa;}
+	</style>
   </head>
   <body>
+  	<h1>時給換算君</h1>
+	<label for=wage>時給(円)</label>
+	<input id=wage type=text value=700> </input>
+	<input type=button id=enable value='有効/更新' > </input>
+	<input type=button id=disable value='無効'> </input>
+	<p>Webページ上の「xxx円」の表記をあなたの労働時間に変換します</p>
   </body>
 </html>
 

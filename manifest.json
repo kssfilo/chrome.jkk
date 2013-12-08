@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "時給換算君",
   "version": "1.2",
-  "description": "Webページ上の「xxx円」の表示をあなたの労働時間に変換します」",
+  "description": "Webページ上の「xxx円」の表示をあなたの労働時間に変換します",
   "background": {
   	"scripts": ["background.js"],
 	"persistent": false
